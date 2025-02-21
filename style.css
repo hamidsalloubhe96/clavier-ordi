@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    justify-content: center; /* Centre tout horizontalement */
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+    margin: 0;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #bbb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    margin: auto; /* Centre le clavier au milieu */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between; /* Répartit les touches sur toute la ligne */
+    gap: 5px;
+    width: 100%;
+}
+
+.key {
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: 2px solid black;
+    background: black;
+    min-width: 40px;
+    flex: 1; /* Permet aux touches de s’adapter à l’espace */
+}
+
+.spacebar {
+    min-width: 600px;
+    background: black;
+    border-radius: 10px;
+}
+
+.delete {
+    min-width: 150px;
+    background: #510808;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    color: white;
+}
+
+.tab {
+    display: flex;
+    min-width: 100px;
+    background: rgb(103, 6, 6);
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.key-red-large {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(233, 76, 76);
+    color: white;
+    border-radius: 10px;
+    min-width: 170px;
+}
+
+.shift-red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a04040;
+    color: white;
+    min-width: 180px;
+    border-radius: 10px;
+}
+
+.command-red {
+    display: flex;
+    background: #a04040;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 170px;
+}
+
